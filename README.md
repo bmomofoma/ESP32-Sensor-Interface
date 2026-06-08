@@ -9,7 +9,7 @@ I built this board because I wanted a compact, reliable hardware platform that c
 ### Moving to a 4-Layer Board
 A lot of simple projects stick to 2 layers, but running high-frequency data lines right next to power traces is a recipe for a noisy bus. 
 * I made **Layer 2 a solid Ground plane** to give all the signals a tight, clean return path, which knocks down cross-talk immensely.
-* **Layer 3 is a split power plane**, which lets me cleanly route the 5V input and 3.3V regulated lines without running into routing bottlenecks.
+* **Layer 3 is a power plane**, which lets me cleanly route the 3.3V regulated line without running into routing bottlenecks.
 
 ### Powering the Array Safely
 The board takes 5V from a USB-C port and drops it to 3.3V using an `AP7361C-33E` linear regulator. 
