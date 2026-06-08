@@ -44,14 +44,3 @@ All five sensors communicate over a single shared $\text{I}^2\text{C}$ bus using
 * **Antenna Keep-Out:** There is a strict, cross-hatched keep-out zone on all layers around the ESP32’s PCB antenna. No copper, traces, or mounting screws can go near it, keeping the wireless signal strong.
 * **Lab Debugging Headers:** I exposed the $\text{I}^2\text{C}$ lines on header **J2** and the main serial UART lines on header **J3**. This makes it easy to clip on a logic analyzer or hook up a USB-to-UART bridge to watch terminal logs while writing firmware.
 * **Buttons & LEDs:** Included a reset button, a boot button, a green power LED, and a red status LED mapped to **GPIO3** for basic visual debugging.
-
----
-
-## About Me
-
-I'm **Benedict-Michael Omofoma**, an Electrical Engineering student at CSUN (Class of 2029) and a member of our campus IEEE chapter. My main goal is digital hardware design—specifically ASICs and FPGAs—and I'm really interested in how we can use HDLs to speed up processing for autonomous robotics. 
-
-When I'm not in the engineering building, I'm usually hitting the gym, playing tabletop board games with friends, working through a daily crossword or Sudoku puzzle, or catching up on *Bleach* and *Black Clover*. 
-
-* **Tech Skills:** Verilog, FPGA Architecture, KiCad (8/9), C/C++, Python, $\text{I}^2\text{C}$/SPI/UART, PCB Layout.
-* **Contact:** [Your Email] | [Your LinkedIn]
