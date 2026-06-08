@@ -1,4 +1,4 @@
-# ESP32-S3 Telemetry Hub (MRCU Rev A)
+# ESP32-S3 Sensor Hub
 
 I built this board because I wanted a compact, reliable hardware platform that could pull data from five different sensors at the same time without turning the signal lines into a noisy mess. It’s a 4-layer board centered around an ESP32-S3 that acts as a central data hub, ideal for robotics or autonomous systems. 
 
